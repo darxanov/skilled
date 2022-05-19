@@ -167,7 +167,7 @@ img {
 /* FEATURES */
 .features {
     padding-top: 64px;
-    padding-bottom: 70px;
+    padding-bottom: 140px;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
@@ -244,4 +244,40 @@ img {
     font-size: 18px;
     line-height: 28px;
     color: #f74780;
+}
+
+
+/* FOOTER */
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #13183f;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.footer__logo-img {
+    display: block;
+    width: 111px;
+    height: 27px;
+}
+
+.footer__button {
+    display: inline-block;
+    padding: 14px 32px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
 }
