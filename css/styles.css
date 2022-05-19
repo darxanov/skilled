@@ -14,11 +14,10 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Rubik", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 22px;
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
     background-color: #fff;
-    color: #4a4b4c;
 }
 
 img {
@@ -35,4 +34,39 @@ img {
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-header__container {
+    display: flex;
+    align-items: center;
+}
+
+.site-header__logo {
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.site-header__logo-img {
+    display: block;
+    width: 111px;
+    height: 27px;
+}
+
+.site-header__button {
+    display: inline-block;
+    padding: 14px 32px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 28px;
+    color: #fff;
+    background-color: #13183f;
 }
