@@ -69,4 +69,95 @@ img {
     border-radius: 28px;
     color: #fff;
     background-color: #13183f;
+    z-index: 1;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+    flex-grow: 1;
+}
+
+
+/* HERO */
+.hero {
+    padding-top: 124px;
+    position: relative;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title {
+    width: 457px;
+    margin: 0;
+    margin-bottom: 29px;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 70px;
+    color: #13183f;
+}
+
+.hero__text {
+    width: 445px;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869a;
+}
+
+.hero__button {
+    display: inline-flex;
+    padding: 19px 32px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: 31px;
+}
+
+.hero__img {
+    position: absolute;
+    top: -104px;
+    right: 0;
+}
+
+.hero__item {
+    padding: 20px 72px 20px 24px;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+    border-radius: 15px;;
+}
+
+.hero__item-course {
+    margin-top: 232px;
+}
+
+.hero__item-members {
+    margin-bottom: 233px;
+}
+
+.hero__item-subtitle {
+    margin: 0;
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #83869a;
+}
+
+.hero__item-title {
+    margin: 0;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183f;
 }
